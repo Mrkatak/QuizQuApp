@@ -52,4 +52,6 @@ dependencies {
     // Splash Screen
     implementation("androidx.core:core-splashscreen:1.0.0")
 
+    implementation ("io.github.muddz:styleabletoast:2.4.0")
+
 }

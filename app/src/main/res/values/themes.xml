@@ -21,6 +21,12 @@
 
     <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
         <item name="android:color">@color/lightpurle</item>
+    </style>
+
+    <style name="mytoast">
+        <item name="stTextColor">@color/white</item>
+        <item name="stColorBackground">@color/darkpurle</item>
+        <item name="stTextSize">20sp</item>
 
     </style>
 </resources>

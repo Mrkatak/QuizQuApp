@@ -5,10 +5,98 @@
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Home" />
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/home_bg_ui"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:paddingTop="48dp"
+            android:paddingBottom="24dp">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_avatar"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome to QuizQu"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="16dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Zein"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="16dp"
+                    android:textStyle="normal"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih tema Quiz"
+            android:textStyle="bold"
+            android:textColor="@color/darkpurle"
+            android:textSize="20sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"/>
+
+        <Button
+            android:id="@+id/btnTekonologi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teknologi"
+            android:textAlignment="viewStart"
+            android:textSize="16sp"
+            android:textColor="@color/darkpurle"
+            android:drawableLeft="@drawable/ic_iot"
+            android:backgroundTint="@color/lightpurle"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coming soon.."
+            android:textAlignment="viewStart"
+            android:textSize="16sp"
+            android:textColor="@color/darkpurle"
+            android:backgroundTint="@color/lightpurle"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"/>
+
+    </LinearLayout>
+
 
 </FrameLayout>
