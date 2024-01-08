@@ -24,10 +24,6 @@ class HomeFragment : Fragment() {
             moveToActivity(it)
         }
 
-
-
-
-
         return view
     }
 

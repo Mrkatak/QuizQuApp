@@ -54,4 +54,6 @@ dependencies {
 
     implementation ("io.github.muddz:styleabletoast:2.4.0")
 
+    implementation("androidx.recyclerview:recyclerview:1.2.1")
+
 }
