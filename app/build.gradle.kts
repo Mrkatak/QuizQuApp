@@ -49,11 +49,13 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-    // Splash Screen
+    // depedency untuk Splash Screen
     implementation("androidx.core:core-splashscreen:1.0.0")
 
+    // depedency untuk style toast
     implementation ("io.github.muddz:styleabletoast:2.4.0")
 
+    // depedency untuk recycler view
     implementation("androidx.recyclerview:recyclerview:1.2.1")
 
 }

@@ -26,8 +26,11 @@ class NoteFragment : Fragment() {
         val recyclerView = view.findViewById<RecyclerView>(R.id.recycleView)
         val dataList = listOf(
             DataItem(1, R.drawable.ic_iot, "Perkembangan AI", getString(R.string.SubJudul1)),
-            DataItem(2, R.drawable.ic_iot, "Data Science On Fire", "Gaji data Science sangat tinggi"),
-            DataItem(3, R.drawable.ic_iot, "Sistem Operasi Mobile Baru", "Harmony OS buatan Huawei")
+            DataItem(2, R.drawable.ic_iot, "Pengembangan Android", getString(R.string.pengembanganAndroid)),
+            DataItem(3, R.drawable.ic_iot, "Juara dunia VS Komputer", getString(R.string.deepblue)),
+            DataItem(4, R.drawable.ic_iot, "Taiwan Semiconductor Manufacturing Company (TSMC)", getString(R.string.tsmc)),
+            DataItem(5, R.drawable.ic_iot, "Sistem Operasi Linux", getString(R.string.linux)),
+
         )
 
         dataAdapter = DataAdapter(dataList)

@@ -1,6 +1,22 @@
 <resources>
     <string name="app_name">QuizQuApp</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="SubJudul1">Perkembangan Ai telah sampai pada era kejayaannya</string>
+    <string name="home_header_welcome">Welcome to QuizQu</string>
+    <string name="header_username">Zein</string>
+    <string name="pilih_tema_quiz">Pilih tema Quiz</string>
+    <string name="button_tema_quiz">Teknologi</string>
+    <string name="button_coming_soon">Coming soon..</string>
+    <string name="header_note">Info-Info Menarik</string>
+    <string name="profile_name">Zein nur Ichsan</string>
+    <string name="profile_quote">Pengetahuan adalah kekuatan</string>
+    <string name="button_tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="header_quiz">QuizQu</string>
+    <string name="nama_tema_quiz">Tema Teknologi</string>
+    <string name="pengembanganAndroid">Tujuan awal pengembangan Android adalah untuk mengembangkan sebuah sistem operasi canggih yang diperuntukkan bagi kamera digital</string>
+    <string name="deepblue">Pada 11 Mei 1997 merupakan momen bersejarah karena pertama kalinya sebuah komputer mengalahkan juara dunia catur dalam pertandingan klasik</string>
+    <string name="tsmc">TSMC adalah perusahaan manufaktur semikonduktor terbesar di dunia dan menghasilkan chip untuk berbagai perusahaan desain chip tanpa memiliki merek sendiri.</string>
+    <string name="linux">Linux merupakan sistem operasi sumber terbuka yang dapat diakses dan dimodifikasi oleh siapa saja, Gratis dan stabil.</string>
 </resources>

@@ -12,6 +12,7 @@ class QuizTeknologiActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityQuizTeknologiBinding
 
+    //  Kumpulan Pertanyaan disimpan di array
     private val question = arrayOf(
         "Apa yang dimaksud dengan URL?",
         "Apa kepanjangan dari JPEG?",
@@ -19,6 +20,7 @@ class QuizTeknologiActivity : AppCompatActivity() {
         "Apa yang dimaksud dengan \"APK\" dalam pengembangan aplikasi mobile?"
     )
 
+    //  Kumpulan jawaban disimpan di array
     private val options = arrayOf(
         arrayOf("a. Universal Resource Locator", "b. Uniform Resource Locator", "c. Unified Resource Locator"),
         arrayOf("a. Joint Photographic Experts Group", "b. Java Programming Extension Graphics", "c. Jumbo Pixel Enhancement Graphics"),
@@ -26,7 +28,7 @@ class QuizTeknologiActivity : AppCompatActivity() {
         arrayOf("a. Android Package Kit", "b. Application Program Kit", "c. Advanced Programming Key")
     )
 
-
+    //  Jawaban yang benar di tulis sesuai index dari array
     private val correctAnswer = arrayOf(0, 0, 1, 0)
 
     private var currentQuestionIndex = 0
@@ -82,6 +84,7 @@ class QuizTeknologiActivity : AppCompatActivity() {
         binding.btnOption2.setBackgroundColor(Color.rgb(50, 59, 96))
         binding.btnOption3.setBackgroundColor(Color.rgb(50, 59, 96))
     }
+
 
     private fun showResults() {
         StyleableToast.makeText(this, "Your Score : $score out of ${question.size}", Toast.LENGTH_LONG, R.style.mytoast).show()

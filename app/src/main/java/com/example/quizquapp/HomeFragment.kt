@@ -27,6 +27,7 @@ class HomeFragment : Fragment() {
         return view
     }
 
+    //  function untuk membuka activity
     private fun moveToActivity(view: View) {
         val intent = Intent(context, QuizTeknologiActivity::class.java)
         startActivity(intent)

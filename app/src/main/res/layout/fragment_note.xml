@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/home_bg_ui"
-            android:text="Info-Info Menarik"
+            android:text="@string/header_note"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="@color/white"
@@ -29,6 +29,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="8dp"
             tools:listitem="@layout/items_list"
+            android:isScrollContainer="true"
             />
 
 
